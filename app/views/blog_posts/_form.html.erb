@@ -17,5 +17,10 @@
       <%= form.text_area :body %>
     </div>
 
+    <div>
+    <%= form.label :published_at %>
+    <%= form.date_time_select :published_at %>
+    </div>
+
     <%= form.button %>
 <% end %>
